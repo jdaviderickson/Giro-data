@@ -1,22 +1,42 @@
-name: Test GIRO connectivity
+name: Update GIRO data
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: '7,37 * * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: giro-data-update
+  cancel-in-progress: false
 
 jobs:
-  test-giro:
+  update:
     runs-on: ubuntu-latest
     steps:
-      - name: Query GIRO FastChar
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Fetch latest GIRO data
+        run: python fetch_giro.py
+
+      - name: Commit JSON if changed
         shell: bash
         run: |
           set -euo pipefail
-          URL='https://lgdc.uml.edu/fastchar/getbest?ursiCode=PA836&charName=foF2%2ChmF2%2CfoE%2CfoEs%2CMUF%28D%29&DMUF=3000&fromDate=2026%2F09%2F15%2014%3A30%3A00&toDate=2026%2F09%2F15%2021%3A35%3A00'
-          echo "Testing GIRO FastChar from GitHub Actions..."
-          curl --fail --show-error --location --connect-timeout 15 --max-time 45 \
-            -H 'Referer: https://giro.uml.edu/' \
-            -H 'User-Agent: Mozilla/5.0' \
-            "$URL" -o giro-response.txt
-          echo "HTTP request succeeded. Bytes received: $(wc -c < giro-response.txt)"
-          echo '--- first 20 lines ---'
-          head -20 giro-response.txt
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/pa836_latest.json
+          if git diff --cached --quiet; then
+            echo 'No data change.'
+            exit 0
+          fi
+          git commit -m 'Update PA836 GIRO data'
+          git push
