@@ -1,0 +1,22 @@
+name: Test GIRO connectivity
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test-giro:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Query GIRO FastChar
+        shell: bash
+        run: |
+          set -euo pipefail
+          URL='https://lgdc.uml.edu/fastchar/getbest?ursiCode=PA836&charName=foF2%2ChmF2%2CfoE%2CfoEs%2CMUF%28D%29&DMUF=3000&fromDate=2026%2F09%2F15%2014%3A30%3A00&toDate=2026%2F09%2F15%2021%3A35%3A00'
+          echo "Testing GIRO FastChar from GitHub Actions..."
+          curl --fail --show-error --location --connect-timeout 15 --max-time 45 \
+            -H 'Referer: https://giro.uml.edu/' \
+            -H 'User-Agent: Mozilla/5.0' \
+            "$URL" -o giro-response.txt
+          echo "HTTP request succeeded. Bytes received: $(wc -c < giro-response.txt)"
+          echo '--- first 20 lines ---'
+          head -20 giro-response.txt
