@@ -2,8 +2,6 @@ name: GIRO scheduled update
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '7,37 * * * *'
 
 permissions:
   contents: write
