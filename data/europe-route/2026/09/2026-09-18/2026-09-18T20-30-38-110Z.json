@@ -1,0 +1,464 @@
+{
+  "archivedAt": "2026-09-18T20:30:38.110Z",
+  "windowMinutes": 35,
+  "source": "ionosonde-retriever Netlify GIRO route handler",
+  "route": "europe",
+  "description": "K6WCE to Europe: candidate North American, Greenland and European ionosondes; verify live availability, freshness, quality and great-circle relevance before path MUF estimation",
+  "stations": [
+    "GSJ53",
+    "SMJ67",
+    "NQJ61",
+    "THJ77",
+    "MHJ45",
+    "FF051",
+    "DB049",
+    "JR055",
+    "PQ052"
+  ],
+  "from": "2026-09-18T19:55:38.110Z",
+  "to": "2026-09-18T20:30:38.110Z",
+  "characteristics": [
+    "foF2",
+    "hmF2",
+    "foE",
+    "foEs",
+    "MUFD"
+  ],
+  "dmuf_km": 3000,
+  "maxAgeMinutes": 120,
+  "results": [
+    {
+      "station": "GSJ53",
+      "count": 0,
+      "latestTime": null,
+      "ageMinutes": null,
+      "stale": true,
+      "latestQuality": null,
+      "data": []
+    },
+    {
+      "station": "SMJ67",
+      "count": 0,
+      "latestTime": null,
+      "ageMinutes": null,
+      "stale": true,
+      "latestQuality": null,
+      "data": []
+    },
+    {
+      "station": "NQJ61",
+      "count": 0,
+      "latestTime": null,
+      "ageMinutes": null,
+      "stale": true,
+      "latestQuality": null,
+      "data": []
+    },
+    {
+      "station": "THJ77",
+      "count": 0,
+      "latestTime": null,
+      "ageMinutes": null,
+      "stale": true,
+      "latestQuality": null,
+      "data": []
+    },
+    {
+      "station": "MHJ45",
+      "count": 4,
+      "latestTime": "2026-09-18T20:22:30.000Z",
+      "ageMinutes": 8.1399,
+      "stale": false,
+      "latestQuality": {
+        "confidenceScore": 70,
+        "missing": [
+          "foEs"
+        ],
+        "usable": true
+      },
+      "data": [
+        {
+          "time": "2026-09-18T20:00:00.000Z",
+          "CS": 75,
+          "foF2": 6.788,
+          "foF2_QD": "//",
+          "hmF2": 247.4,
+          "hmF2_QD": "//",
+          "foE": 2.8,
+          "foE_QD": "//",
+          "foEs": 2.92,
+          "foEs_QD": "//",
+          "MUFD": 21.884,
+          "MUFD_QD": "//"
+        },
+        {
+          "time": "2026-09-18T20:07:30.000Z",
+          "CS": 70,
+          "foF2": 6.8,
+          "foF2_QD": "//",
+          "hmF2": 259.2,
+          "hmF2_QD": "//",
+          "foE": 2.75,
+          "foE_QD": "//",
+          "foEs": 2.95,
+          "foEs_QD": "//",
+          "MUFD": 21.365,
+          "MUFD_QD": "//"
+        },
+        {
+          "time": "2026-09-18T20:15:00.000Z",
+          "CS": 70,
+          "foF2": 6.9,
+          "foF2_QD": "//",
+          "hmF2": 251.3,
+          "hmF2_QD": "//",
+          "foE": 2.88,
+          "foE_QD": "//",
+          "foEs": null,
+          "foEs_QD": "__",
+          "MUFD": 22.235,
+          "MUFD_QD": "//"
+        },
+        {
+          "time": "2026-09-18T20:22:30.000Z",
+          "CS": 70,
+          "foF2": 6.975,
+          "foF2_QD": "//",
+          "hmF2": 245.9,
+          "hmF2_QD": "//",
+          "foE": 2.83,
+          "foE_QD": "//",
+          "foEs": null,
+          "foEs_QD": "__",
+          "MUFD": 23.075,
+          "MUFD_QD": "//"
+        }
+      ]
+    },
+    {
+      "station": "FF051",
+      "count": 0,
+      "latestTime": null,
+      "ageMinutes": null,
+      "stale": true,
+      "latestQuality": null,
+      "data": []
+    },
+    {
+      "station": "DB049",
+      "count": 6,
+      "latestTime": "2026-09-18T20:25:00.000Z",
+      "ageMinutes": 5.644383333333334,
+      "stale": false,
+      "latestQuality": {
+        "confidenceScore": 100,
+        "missing": [
+          "foE"
+        ],
+        "usable": true
+      },
+      "data": [
+        {
+          "time": "2026-09-18T20:00:01.000Z",
+          "CS": 75,
+          "foF2": 5.7,
+          "foF2_QD": "//",
+          "hmF2": 256.4,
+          "hmF2_QD": "//",
+          "foE": null,
+          "foE_QD": "__",
+          "foEs": 2.35,
+          "foEs_QD": "//",
+          "MUFD": 19.153,
+          "MUFD_QD": "//"
+        },
+        {
+          "time": "2026-09-18T20:05:02.000Z",
+          "CS": 95,
+          "foF2": 5.7,
+          "foF2_QD": "//",
+          "hmF2": 267.1,
+          "hmF2_QD": "//",
+          "foE": null,
+          "foE_QD": "__",
+          "foEs": null,
+          "foEs_QD": "__",
+          "MUFD": 18.363,
+          "MUFD_QD": "//"
+        },
+        {
+          "time": "2026-09-18T20:10:00.000Z",
+          "CS": 95,
+          "foF2": 5.7,
+          "foF2_QD": "//",
+          "hmF2": 276.6,
+          "hmF2_QD": "//",
+          "foE": null,
+          "foE_QD": "__",
+          "foEs": 1.85,
+          "foEs_QD": "//",
+          "MUFD": 17.864,
+          "MUFD_QD": "//"
+        },
+        {
+          "time": "2026-09-18T20:15:01.000Z",
+          "CS": 95,
+          "foF2": 5.35,
+          "foF2_QD": "//",
+          "hmF2": 280.9,
+          "hmF2_QD": "//",
+          "foE": null,
+          "foE_QD": "__",
+          "foEs": 2.05,
+          "foEs_QD": "//",
+          "MUFD": 17.106,
+          "MUFD_QD": "//"
+        },
+        {
+          "time": "2026-09-18T20:20:02.000Z",
+          "CS": 95,
+          "foF2": 5.15,
+          "foF2_QD": "//",
+          "hmF2": 264.5,
+          "hmF2_QD": "//",
+          "foE": null,
+          "foE_QD": "__",
+          "foEs": 1.95,
+          "foEs_QD": "//",
+          "MUFD": 17.05,
+          "MUFD_QD": "//"
+        },
+        {
+          "time": "2026-09-18T20:25:00.000Z",
+          "CS": 100,
+          "foF2": 5.2,
+          "foF2_QD": "//",
+          "hmF2": 276.4,
+          "hmF2_QD": "//",
+          "foE": null,
+          "foE_QD": "__",
+          "foEs": 2,
+          "foEs_QD": "//",
+          "MUFD": 16.505,
+          "MUFD_QD": "//"
+        }
+      ]
+    },
+    {
+      "station": "JR055",
+      "count": 7,
+      "latestTime": "2026-09-18T20:28:16.000Z",
+      "ageMinutes": 2.3788,
+      "stale": false,
+      "latestQuality": {
+        "confidenceScore": 90,
+        "missing": [
+          "foE"
+        ],
+        "usable": true
+      },
+      "data": [
+        {
+          "time": "2026-09-18T19:58:16.000Z",
+          "CS": 70,
+          "foF2": 5.475,
+          "foF2_QD": "//",
+          "hmF2": 290.2,
+          "hmF2_QD": "//",
+          "foE": null,
+          "foE_QD": "__",
+          "foEs": 2.22,
+          "foEs_QD": "//",
+          "MUFD": 17.508,
+          "MUFD_QD": "//"
+        },
+        {
+          "time": "2026-09-18T20:03:16.000Z",
+          "CS": 70,
+          "foF2": 5.375,
+          "foF2_QD": "//",
+          "hmF2": 280.4,
+          "hmF2_QD": "//",
+          "foE": null,
+          "foE_QD": "__",
+          "foEs": 2.03,
+          "foEs_QD": "//",
+          "MUFD": 17.373,
+          "MUFD_QD": "//"
+        },
+        {
+          "time": "2026-09-18T20:08:16.000Z",
+          "CS": 90,
+          "foF2": 5.325,
+          "foF2_QD": "//",
+          "hmF2": 287,
+          "hmF2_QD": "//",
+          "foE": null,
+          "foE_QD": "__",
+          "foEs": 2.08,
+          "foEs_QD": "//",
+          "MUFD": 17.05,
+          "MUFD_QD": "//"
+        },
+        {
+          "time": "2026-09-18T20:13:16.000Z",
+          "CS": 70,
+          "foF2": 5.225,
+          "foF2_QD": "//",
+          "hmF2": 281.1,
+          "hmF2_QD": "//",
+          "foE": null,
+          "foE_QD": "__",
+          "foEs": 2.05,
+          "foEs_QD": "//",
+          "MUFD": 16.737,
+          "MUFD_QD": "//"
+        },
+        {
+          "time": "2026-09-18T20:18:16.000Z",
+          "CS": 70,
+          "foF2": 5.125,
+          "foF2_QD": "//",
+          "hmF2": 273.4,
+          "hmF2_QD": "//",
+          "foE": null,
+          "foE_QD": "__",
+          "foEs": 2,
+          "foEs_QD": "//",
+          "MUFD": 16.776,
+          "MUFD_QD": "//"
+        },
+        {
+          "time": "2026-09-18T20:23:16.000Z",
+          "CS": 70,
+          "foF2": 5.025,
+          "foF2_QD": "//",
+          "hmF2": 273.4,
+          "hmF2_QD": "//",
+          "foE": null,
+          "foE_QD": "__",
+          "foEs": 2.25,
+          "foEs_QD": "//",
+          "MUFD": 16.469,
+          "MUFD_QD": "//"
+        },
+        {
+          "time": "2026-09-18T20:28:16.000Z",
+          "CS": 90,
+          "foF2": 4.9,
+          "foF2_QD": "//",
+          "hmF2": 283.9,
+          "hmF2_QD": "//",
+          "foE": null,
+          "foE_QD": "__",
+          "foEs": 2.35,
+          "foEs_QD": "//",
+          "MUFD": 15.68,
+          "MUFD_QD": "//"
+        }
+      ]
+    },
+    {
+      "station": "PQ052",
+      "count": 6,
+      "latestTime": "2026-09-18T20:25:00.000Z",
+      "ageMinutes": 5.646583333333333,
+      "stale": false,
+      "latestQuality": {
+        "confidenceScore": 100,
+        "missing": [
+          "foE",
+          "foEs"
+        ],
+        "usable": true
+      },
+      "data": [
+        {
+          "time": "2026-09-18T20:00:00.000Z",
+          "CS": 100,
+          "foF2": 5.1,
+          "foF2_QD": "//",
+          "hmF2": 264.7,
+          "hmF2_QD": "//",
+          "foE": null,
+          "foE_QD": "__",
+          "foEs": null,
+          "foEs_QD": "__",
+          "MUFD": 16.648,
+          "MUFD_QD": "//"
+        },
+        {
+          "time": "2026-09-18T20:05:00.000Z",
+          "CS": 95,
+          "foF2": 5.05,
+          "foF2_QD": "//",
+          "hmF2": 276.2,
+          "hmF2_QD": "//",
+          "foE": null,
+          "foE_QD": "__",
+          "foEs": null,
+          "foEs_QD": "__",
+          "MUFD": 16.141,
+          "MUFD_QD": "//"
+        },
+        {
+          "time": "2026-09-18T20:10:00.000Z",
+          "CS": 95,
+          "foF2": 5.05,
+          "foF2_QD": "//",
+          "hmF2": 282.7,
+          "hmF2_QD": "//",
+          "foE": null,
+          "foE_QD": "__",
+          "foEs": null,
+          "foEs_QD": "__",
+          "MUFD": 16.111,
+          "MUFD_QD": "//"
+        },
+        {
+          "time": "2026-09-18T20:15:00.000Z",
+          "CS": 100,
+          "foF2": 5,
+          "foF2_QD": "//",
+          "hmF2": 281.6,
+          "hmF2_QD": "//",
+          "foE": null,
+          "foE_QD": "__",
+          "foEs": null,
+          "foEs_QD": "__",
+          "MUFD": 16.006,
+          "MUFD_QD": "//"
+        },
+        {
+          "time": "2026-09-18T20:20:00.000Z",
+          "CS": 100,
+          "foF2": 4.95,
+          "foF2_QD": "//",
+          "hmF2": 285.9,
+          "hmF2_QD": "//",
+          "foE": null,
+          "foE_QD": "__",
+          "foEs": null,
+          "foEs_QD": "__",
+          "MUFD": 15.609,
+          "MUFD_QD": "//"
+        },
+        {
+          "time": "2026-09-18T20:25:00.000Z",
+          "CS": 100,
+          "foF2": 4.85,
+          "foF2_QD": "//",
+          "hmF2": 289.5,
+          "hmF2_QD": "//",
+          "foE": null,
+          "foE_QD": "__",
+          "foEs": null,
+          "foEs_QD": "__",
+          "MUFD": 15.292,
+          "MUFD_QD": "//"
+        }
+      ]
+    }
+  ],
+  "errors": []
+}
