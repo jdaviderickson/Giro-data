@@ -1,5 +1,5 @@
 {
-  "archivedAt": "2026-09-22T20:00:38.461Z",
+  "archivedAt": "2026-09-22T21:00:35.425Z",
   "hours": 24,
   "source": "ionosonde-retriever Netlify GIRO route handler",
   "route": "europe",
@@ -17,8 +17,8 @@
     "PA836",
     "LAA38"
   ],
-  "from": "2026-09-21T20:00:38.461Z",
-  "to": "2026-09-22T20:00:38.461Z",
+  "from": "2026-09-21T21:00:35.425Z",
+  "to": "2026-09-22T21:00:35.425Z",
   "characteristics": [
     "foF2",
     "hmF2",
@@ -28,7 +28,7 @@
   ],
   "dmuf_km": 3000,
   "maxAgeMinutes": 120,
-  "recordCount": 1663,
+  "recordCount": 1664,
   "results": [
     {
       "station": "GSJ53",
@@ -60,8 +60,8 @@
     {
       "station": "THJ76",
       "count": 159,
-      "latestTime": "2026-09-22T15:52:30.000Z",
-      "ageMinutes": 248.15496666666667,
+      "latestTime": "2026-09-22T16:52:30.000Z",
+      "ageMinutes": 248.10348333333334,
       "stale": true,
       "latestQuality": {
         "confidenceScore": 70,
@@ -69,77 +69,79 @@
         "usable": true
       },
       "latest": {
-        "time": "2026-09-22T15:52:30.000Z",
+        "time": "2026-09-22T16:52:30.000Z",
         "CS": 70,
-        "foF2": 5.263,
+        "foF2": 5.613,
         "foF2_QD": "//",
-        "hmF2": 251,
+        "hmF2": 249.2,
         "hmF2_QD": "//",
         "foE": 2.45,
         "foE_QD": "//",
-        "foEs": 2.58,
+        "foEs": 2.63,
         "foEs_QD": "//",
-        "MUFD": 16.015,
+        "MUFD": 18.181,
         "MUFD_QD": "//"
       }
     },
     {
       "station": "MHJ45",
       "count": 191,
-      "latestTime": "2026-09-22T19:52:30.000Z",
-      "ageMinutes": 8.147233333333334,
+      "latestTime": "2026-09-22T20:52:30.000Z",
+      "ageMinutes": 8.094766666666667,
       "stale": false,
       "latestQuality": {
-        "confidenceScore": 40,
+        "confidenceScore": 70,
         "missing": [],
         "usable": true
       },
       "latest": {
-        "time": "2026-09-22T19:52:30.000Z",
-        "CS": 40,
-        "foF2": 6.825,
+        "time": "2026-09-22T20:52:30.000Z",
+        "CS": 70,
+        "foF2": 7.025,
         "foF2_QD": "//",
-        "hmF2": 254.1,
+        "hmF2": 259,
         "hmF2_QD": "//",
-        "foE": 3.05,
+        "foE": 2.7,
         "foE_QD": "//",
-        "foEs": 3.1,
+        "foEs": 2.78,
         "foEs_QD": "//",
-        "MUFD": 20.758,
+        "MUFD": 22.376,
         "MUFD_QD": "//"
       }
     },
     {
       "station": "FF051",
       "count": 155,
-      "latestTime": "2026-09-22T15:37:30.000Z",
-      "ageMinutes": 263.1505,
+      "latestTime": "2026-09-22T16:37:30.000Z",
+      "ageMinutes": 263.1046166666667,
       "stale": true,
       "latestQuality": {
         "confidenceScore": 90,
-        "missing": [],
+        "missing": [
+          "foEs"
+        ],
         "usable": true
       },
       "latest": {
-        "time": "2026-09-22T15:37:30.000Z",
+        "time": "2026-09-22T16:37:30.000Z",
         "CS": 90,
-        "foF2": 6.45,
+        "foF2": 7,
         "foF2_QD": "//",
-        "hmF2": 235.9,
+        "hmF2": 242.2,
         "hmF2_QD": "//",
-        "foE": 2.67,
+        "foE": 2.2,
         "foE_QD": "//",
-        "foEs": 3.5,
-        "foEs_QD": "//",
-        "MUFD": 21.158,
+        "foEs": null,
+        "foEs_QD": "__",
+        "MUFD": 24.308,
         "MUFD_QD": "//"
       }
     },
     {
       "station": "DB049",
       "count": 275,
-      "latestTime": "2026-09-22T19:55:00.000Z",
-      "ageMinutes": 5.6546666666666665,
+      "latestTime": "2026-09-22T20:55:00.000Z",
+      "ageMinutes": 5.598516666666667,
       "stale": false,
       "latestQuality": {
         "confidenceScore": 100,
@@ -150,54 +152,25 @@
         "usable": true
       },
       "latest": {
-        "time": "2026-09-22T19:55:00.000Z",
+        "time": "2026-09-22T20:55:00.000Z",
         "CS": 100,
-        "foF2": 6.25,
+        "foF2": 5.35,
         "foF2_QD": "//",
-        "hmF2": 289.9,
+        "hmF2": 270.6,
         "hmF2_QD": "//",
         "foE": null,
         "foE_QD": "__",
         "foEs": null,
         "foEs_QD": "__",
-        "MUFD": 19.952,
+        "MUFD": 17.79,
         "MUFD_QD": "//"
       }
     },
     {
       "station": "JR055",
       "count": 288,
-      "latestTime": "2026-09-22T19:58:16.000Z",
-      "ageMinutes": 2.386816666666667,
-      "stale": false,
-      "latestQuality": {
-        "confidenceScore": 75,
-        "missing": [
-          "foE",
-          "foEs"
-        ],
-        "usable": true
-      },
-      "latest": {
-        "time": "2026-09-22T19:58:16.000Z",
-        "CS": 75,
-        "foF2": 5.5,
-        "foF2_QD": "//",
-        "hmF2": 286.1,
-        "hmF2_QD": "//",
-        "foE": null,
-        "foE_QD": "__",
-        "foEs": null,
-        "foEs_QD": "__",
-        "MUFD": 17.45,
-        "MUFD_QD": "//"
-      }
-    },
-    {
-      "station": "PQ052",
-      "count": 287,
-      "latestTime": "2026-09-22T19:55:00.000Z",
-      "ageMinutes": 5.646733333333334,
+      "latestTime": "2026-09-22T20:58:16.000Z",
+      "ageMinutes": 2.3364166666666666,
       "stale": false,
       "latestQuality": {
         "confidenceScore": 90,
@@ -208,56 +181,28 @@
         "usable": true
       },
       "latest": {
-        "time": "2026-09-22T19:55:00.000Z",
+        "time": "2026-09-22T20:58:16.000Z",
         "CS": 90,
-        "foF2": 5.8,
+        "foF2": 4.925,
         "foF2_QD": "//",
-        "hmF2": 286,
+        "hmF2": 282.5,
         "hmF2_QD": "//",
         "foE": null,
         "foE_QD": "__",
         "foEs": null,
         "foEs_QD": "__",
-        "MUFD": 18.659,
+        "MUFD": 16.037,
         "MUFD_QD": "//"
       }
     },
     {
-      "station": "PA836",
-      "count": 158,
-      "latestTime": "2026-09-22T15:45:00.000Z",
-      "ageMinutes": 255.65611666666666,
-      "stale": true,
+      "station": "PQ052",
+      "count": 287,
+      "latestTime": "2026-09-22T20:55:00.000Z",
+      "ageMinutes": 5.596333333333333,
+      "stale": false,
       "latestQuality": {
-        "confidenceScore": 95,
-        "missing": [
-          "foEs"
-        ],
-        "usable": true
-      },
-      "latest": {
-        "time": "2026-09-22T15:45:00.000Z",
-        "CS": 95,
-        "foF2": 6.975,
-        "foF2_QD": "//",
-        "hmF2": 215.6,
-        "hmF2_QD": "//",
-        "foE": 2.22,
-        "foE_QD": "//",
-        "foEs": null,
-        "foEs_QD": "__",
-        "MUFD": 25.418,
-        "MUFD_QD": "//"
-      }
-    },
-    {
-      "station": "LAA38",
-      "count": 150,
-      "latestTime": "2026-09-22T15:45:00.000Z",
-      "ageMinutes": 255.65171666666666,
-      "stale": true,
-      "latestQuality": {
-        "confidenceScore": 70,
+        "confidenceScore": 100,
         "missing": [
           "foE",
           "foEs"
@@ -265,17 +210,75 @@
         "usable": true
       },
       "latest": {
-        "time": "2026-09-22T15:45:00.000Z",
-        "CS": 70,
-        "foF2": 7.05,
+        "time": "2026-09-22T20:55:00.000Z",
+        "CS": 100,
+        "foF2": 4.9,
         "foF2_QD": "//",
-        "hmF2": 234.8,
+        "hmF2": 277.3,
         "hmF2_QD": "//",
         "foE": null,
         "foE_QD": "__",
         "foEs": null,
         "foEs_QD": "__",
-        "MUFD": 23.858,
+        "MUFD": 15.858,
+        "MUFD_QD": "//"
+      }
+    },
+    {
+      "station": "PA836",
+      "count": 158,
+      "latestTime": "2026-09-22T16:45:00.000Z",
+      "ageMinutes": 255.60556666666668,
+      "stale": true,
+      "latestQuality": {
+        "confidenceScore": 85,
+        "missing": [
+          "foE",
+          "foEs"
+        ],
+        "usable": true
+      },
+      "latest": {
+        "time": "2026-09-22T16:45:00.000Z",
+        "CS": 85,
+        "foF2": 7.038,
+        "foF2_QD": "//",
+        "hmF2": 220,
+        "hmF2_QD": "//",
+        "foE": null,
+        "foE_QD": "__",
+        "foEs": null,
+        "foEs_QD": "__",
+        "MUFD": 24.35,
+        "MUFD_QD": "//"
+      }
+    },
+    {
+      "station": "LAA38",
+      "count": 151,
+      "latestTime": "2026-09-22T16:52:30.000Z",
+      "ageMinutes": 248.09686666666667,
+      "stale": true,
+      "latestQuality": {
+        "confidenceScore": 90,
+        "missing": [
+          "foE",
+          "foEs"
+        ],
+        "usable": true
+      },
+      "latest": {
+        "time": "2026-09-22T16:52:30.000Z",
+        "CS": 90,
+        "foF2": 7,
+        "foF2_QD": "//",
+        "hmF2": 240.8,
+        "hmF2_QD": "//",
+        "foE": null,
+        "foE_QD": "__",
+        "foEs": null,
+        "foEs_QD": "__",
+        "MUFD": 23.36,
         "MUFD_QD": "//"
       }
     }
