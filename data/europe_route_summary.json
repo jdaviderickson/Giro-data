@@ -1,5 +1,5 @@
 {
-  "archivedAt": "2026-10-15T20:00:22.602Z",
+  "archivedAt": "2026-10-15T21:00:21.897Z",
   "hours": 24,
   "source": "ionosonde-retriever Netlify GIRO route handler",
   "route": "europe",
@@ -15,8 +15,8 @@
     "LAA38",
     "TR169"
   ],
-  "from": "2026-10-14T20:00:22.602Z",
-  "to": "2026-10-15T20:00:22.602Z",
+  "from": "2026-10-14T21:00:21.897Z",
+  "to": "2026-10-15T21:00:21.897Z",
   "characteristics": [
     "foF2",
     "hmF2",
@@ -26,13 +26,13 @@
   ],
   "dmuf_km": 3000,
   "maxAgeMinutes": 120,
-  "recordCount": 698,
+  "recordCount": 897,
   "results": [
     {
       "station": "THJ76",
-      "count": 52,
+      "count": 44,
       "latestTime": "2026-10-15T02:30:00.000Z",
-      "ageMinutes": 1050.38425,
+      "ageMinutes": 1110.37675,
       "stale": true,
       "latestQuality": {
         "confidenceScore": 0,
@@ -60,9 +60,9 @@
     },
     {
       "station": "MHJ45",
-      "count": 84,
+      "count": 76,
       "latestTime": "2026-10-15T06:30:00.000Z",
-      "ageMinutes": 810.3820666666667,
+      "ageMinutes": 870.3691666666666,
       "stale": true,
       "latestQuality": {
         "confidenceScore": 90,
@@ -89,38 +89,35 @@
     },
     {
       "station": "FF051",
-      "count": 49,
-      "latestTime": "2026-10-15T02:15:00.000Z",
-      "ageMinutes": 1065.3864333333333,
+      "count": 149,
+      "latestTime": "2026-10-15T15:52:30.000Z",
+      "ageMinutes": 307.8747666666667,
       "stale": true,
       "latestQuality": {
-        "confidenceScore": 90,
-        "missing": [
-          "foE",
-          "foEs"
-        ],
+        "confidenceScore": 95,
+        "missing": [],
         "usable": true
       },
       "latest": {
-        "time": "2026-10-15T02:15:00.000Z",
-        "CS": 90,
-        "foF2": 3.8,
+        "time": "2026-10-15T15:52:30.000Z",
+        "CS": 95,
+        "foF2": 7.875,
         "foF2_QD": "//",
-        "hmF2": 361.5,
+        "hmF2": 234.9,
         "hmF2_QD": "//",
-        "foE": null,
-        "foE_QD": "__",
-        "foEs": null,
-        "foEs_QD": "__",
-        "MUFD": 10.524,
+        "foE": 2.45,
+        "foE_QD": "//",
+        "foEs": 2.58,
+        "foEs_QD": "//",
+        "MUFD": 27.744,
         "MUFD_QD": "//"
       }
     },
     {
       "station": "DB049",
-      "count": 126,
+      "count": 114,
       "latestTime": "2026-10-15T06:30:01.000Z",
-      "ageMinutes": 810.3645,
+      "ageMinutes": 870.3535333333333,
       "stale": true,
       "latestQuality": {
         "confidenceScore": 80,
@@ -146,35 +143,37 @@
     },
     {
       "station": "JR055",
-      "count": 127,
-      "latestTime": "2026-10-15T06:33:16.000Z",
-      "ageMinutes": 807.1210833333333,
-      "stale": true,
+      "count": 279,
+      "latestTime": "2026-10-15T20:13:16.000Z",
+      "ageMinutes": 47.109966666666665,
+      "stale": false,
       "latestQuality": {
-        "confidenceScore": 90,
-        "missing": [],
+        "confidenceScore": 70,
+        "missing": [
+          "foE"
+        ],
         "usable": true
       },
       "latest": {
-        "time": "2026-10-15T06:33:16.000Z",
-        "CS": 90,
-        "foF2": 5.9,
+        "time": "2026-10-15T20:13:16.000Z",
+        "CS": 70,
+        "foF2": 4.275,
         "foF2_QD": "//",
-        "hmF2": 231.7,
+        "hmF2": 333.4,
         "hmF2_QD": "//",
-        "foE": 2.06,
-        "foE_QD": "//",
-        "foEs": 2.35,
+        "foE": null,
+        "foE_QD": "__",
+        "foEs": 2.1,
         "foEs_QD": "//",
-        "MUFD": 20.123,
+        "MUFD": 12.308,
         "MUFD_QD": "//"
       }
     },
     {
       "station": "PQ052",
-      "count": 125,
+      "count": 114,
       "latestTime": "2026-10-15T06:30:00.000Z",
-      "ageMinutes": 810.3832333333334,
+      "ageMinutes": 870.3714666666667,
       "stale": true,
       "latestQuality": {
         "confidenceScore": 80,
@@ -216,9 +215,9 @@
     },
     {
       "station": "TR169",
-      "count": 135,
+      "count": 121,
       "latestTime": "2026-10-15T06:34:29.000Z",
-      "ageMinutes": 805.9055166666667,
+      "ageMinutes": 865.8902,
       "stale": true,
       "latestQuality": {
         "confidenceScore": 60,
