@@ -1,5 +1,5 @@
 {
-  "archivedAt": "2026-10-15T08:00:22.017Z",
+  "archivedAt": "2026-10-15T09:00:20.941Z",
   "hours": 24,
   "source": "ionosonde-retriever Netlify GIRO route handler",
   "route": "europe",
@@ -15,8 +15,8 @@
     "LAA38",
     "TR169"
   ],
-  "from": "2026-10-14T08:00:22.017Z",
-  "to": "2026-10-15T08:00:22.017Z",
+  "from": "2026-10-14T09:00:20.941Z",
+  "to": "2026-10-15T09:00:20.941Z",
   "characteristics": [
     "foF2",
     "hmF2",
@@ -26,13 +26,13 @@
   ],
   "dmuf_km": 3000,
   "maxAgeMinutes": 120,
-  "recordCount": 1585,
+  "recordCount": 1521,
   "results": [
     {
       "station": "THJ76",
-      "count": 148,
+      "count": 140,
       "latestTime": "2026-10-15T02:30:00.000Z",
-      "ageMinutes": 330.3786666666667,
+      "ageMinutes": 390.35726666666665,
       "stale": true,
       "latestQuality": {
         "confidenceScore": 0,
@@ -60,10 +60,10 @@
     },
     {
       "station": "MHJ45",
-      "count": 180,
+      "count": 172,
       "latestTime": "2026-10-15T06:30:00.000Z",
-      "ageMinutes": 90.37813333333334,
-      "stale": false,
+      "ageMinutes": 150.35685,
+      "stale": true,
       "latestQuality": {
         "confidenceScore": 90,
         "missing": [
@@ -89,9 +89,9 @@
     },
     {
       "station": "FF051",
-      "count": 143,
+      "count": 135,
       "latestTime": "2026-10-15T02:15:00.000Z",
-      "ageMinutes": 345.37975,
+      "ageMinutes": 405.35955,
       "stale": true,
       "latestQuality": {
         "confidenceScore": 90,
@@ -118,10 +118,10 @@
     },
     {
       "station": "DB049",
-      "count": 270,
+      "count": 258,
       "latestTime": "2026-10-15T06:30:01.000Z",
-      "ageMinutes": 90.3572,
-      "stale": false,
+      "ageMinutes": 150.34468333333334,
+      "stale": true,
       "latestQuality": {
         "confidenceScore": 80,
         "missing": [
@@ -146,10 +146,10 @@
     },
     {
       "station": "JR055",
-      "count": 271,
+      "count": 259,
       "latestTime": "2026-10-15T06:33:16.000Z",
-      "ageMinutes": 87.10618333333333,
-      "stale": false,
+      "ageMinutes": 147.08803333333333,
+      "stale": true,
       "latestQuality": {
         "confidenceScore": 90,
         "missing": [],
@@ -174,8 +174,8 @@
       "station": "PQ052",
       "count": 255,
       "latestTime": "2026-10-15T06:30:00.000Z",
-      "ageMinutes": 90.37716666666667,
-      "stale": false,
+      "ageMinutes": 150.36245,
+      "stale": true,
       "latestQuality": {
         "confidenceScore": 80,
         "missing": [],
@@ -216,10 +216,10 @@
     },
     {
       "station": "TR169",
-      "count": 318,
+      "count": 302,
       "latestTime": "2026-10-15T06:34:29.000Z",
-      "ageMinutes": 85.89193333333333,
-      "stale": false,
+      "ageMinutes": 145.87248333333332,
+      "stale": true,
       "latestQuality": {
         "confidenceScore": 60,
         "missing": [
