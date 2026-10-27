@@ -1,5 +1,5 @@
 {
-  "archivedAt": "2026-10-27T15:00:43.722Z",
+  "archivedAt": "2026-10-27T16:00:42.603Z",
   "hours": 24,
   "source": "ionosonde-retriever Netlify GIRO route handler",
   "route": "europe",
@@ -15,8 +15,8 @@
     "LAA38",
     "TR169"
   ],
-  "from": "2026-10-26T15:00:43.722Z",
-  "to": "2026-10-27T15:00:43.722Z",
+  "from": "2026-10-26T16:00:42.603Z",
+  "to": "2026-10-27T16:00:42.603Z",
   "characteristics": [
     "foF2",
     "hmF2",
@@ -26,13 +26,13 @@
   ],
   "dmuf_km": 3000,
   "maxAgeMinutes": 120,
-  "recordCount": 1807,
+  "recordCount": 1509,
   "results": [
     {
       "station": "THJ76",
       "count": 140,
-      "latestTime": "2026-10-27T10:52:30.000Z",
-      "ageMinutes": 248.24163333333334,
+      "latestTime": "2026-10-27T11:52:30.000Z",
+      "ageMinutes": 248.21923333333334,
       "stale": true,
       "latestQuality": {
         "confidenceScore": 60,
@@ -43,17 +43,17 @@
         "usable": true
       },
       "latest": {
-        "time": "2026-10-27T10:52:30.000Z",
+        "time": "2026-10-27T11:52:30.000Z",
         "CS": 60,
-        "foF2": 2.575,
+        "foF2": 2.5,
         "foF2_QD": "//",
-        "hmF2": 294.1,
+        "hmF2": 335.2,
         "hmF2_QD": "//",
         "foE": null,
         "foE_QD": "__",
         "foEs": null,
         "foEs_QD": "__",
-        "MUFD": 7.876,
+        "MUFD": 6.697,
         "MUFD_QD": "//"
       }
     },
@@ -69,60 +69,34 @@
     {
       "station": "FF051",
       "count": 157,
-      "latestTime": "2026-10-27T10:37:30.000Z",
-      "ageMinutes": 263.23716666666667,
+      "latestTime": "2026-10-27T11:37:30.000Z",
+      "ageMinutes": 263.218,
       "stale": true,
       "latestQuality": {
-        "confidenceScore": 90,
+        "confidenceScore": 95,
         "missing": [],
         "usable": true
       },
       "latest": {
-        "time": "2026-10-27T10:37:30.000Z",
-        "CS": 90,
-        "foF2": 8.65,
+        "time": "2026-10-27T11:37:30.000Z",
+        "CS": 95,
+        "foF2": 8,
         "foF2_QD": "//",
-        "hmF2": 233.7,
+        "hmF2": 229.8,
         "hmF2_QD": "//",
-        "foE": 2.88,
+        "foE": 2.92,
         "foE_QD": "//",
-        "foEs": 3.63,
+        "foEs": 4.1,
         "foEs_QD": "//",
-        "MUFD": 30.179,
+        "MUFD": 28.026,
         "MUFD_QD": "//"
       }
     },
     {
       "station": "DB049",
       "count": 286,
-      "latestTime": "2026-10-27T14:55:00.000Z",
-      "ageMinutes": 5.737,
-      "stale": false,
-      "latestQuality": {
-        "confidenceScore": 100,
-        "missing": [],
-        "usable": true
-      },
-      "latest": {
-        "time": "2026-10-27T14:55:00.000Z",
-        "CS": 100,
-        "foF2": 8.35,
-        "foF2_QD": "//",
-        "hmF2": 240.8,
-        "hmF2_QD": "//",
-        "foE": 2.2,
-        "foE_QD": "//",
-        "foEs": 1.9,
-        "foEs_QD": "//",
-        "MUFD": 29.152,
-        "MUFD_QD": "//"
-      }
-    },
-    {
-      "station": "JR055",
-      "count": 288,
-      "latestTime": "2026-10-27T14:58:16.000Z",
-      "ageMinutes": 2.4690833333333333,
+      "latestTime": "2026-10-27T15:55:00.000Z",
+      "ageMinutes": 5.720883333333333,
       "stale": false,
       "latestQuality": {
         "confidenceScore": 95,
@@ -130,54 +104,66 @@
         "usable": true
       },
       "latest": {
-        "time": "2026-10-27T14:58:16.000Z",
+        "time": "2026-10-27T15:55:00.000Z",
         "CS": 95,
-        "foF2": 7.775,
+        "foF2": 7.65,
         "foF2_QD": "//",
-        "hmF2": 247.2,
+        "hmF2": 237.7,
         "hmF2_QD": "//",
-        "foE": 1.96,
+        "foE": 1.6,
         "foE_QD": "//",
-        "foEs": 1.95,
+        "foEs": 2.3,
         "foEs_QD": "//",
-        "MUFD": 26.535,
+        "MUFD": 27.073,
         "MUFD_QD": "//"
       }
     },
     {
+      "station": "JR055",
+      "count": 0,
+      "latestTime": null,
+      "ageMinutes": null,
+      "stale": true,
+      "latestQuality": null,
+      "latest": null,
+      "error": "GIRO returned 429: <html>\r\n<head><title>429 Too Many Requests</title></head>\r\n<body>\r\n<center><h1>429 Too Many Requests</h1></center>\r\n<hr><center>nginx/1.24.0 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
       "station": "PQ052",
-      "count": 272,
-      "latestTime": "2026-10-27T14:50:00.000Z",
-      "ageMinutes": 10.734583333333333,
+      "count": 263,
+      "latestTime": "2026-10-27T15:50:00.000Z",
+      "ageMinutes": 10.724233333333334,
       "stale": false,
       "latestQuality": {
-        "confidenceScore": 90,
-        "missing": [],
+        "confidenceScore": 100,
+        "missing": [
+          "foE"
+        ],
         "usable": true
       },
       "latest": {
-        "time": "2026-10-27T14:50:00.000Z",
-        "CS": 90,
-        "foF2": 8.15,
+        "time": "2026-10-27T15:50:00.000Z",
+        "CS": 100,
+        "foF2": 6.55,
         "foF2_QD": "//",
-        "hmF2": 244.5,
+        "hmF2": 238.1,
         "hmF2_QD": "//",
-        "foE": 2,
-        "foE_QD": "//",
-        "foEs": 3.75,
+        "foE": null,
+        "foE_QD": "__",
+        "foEs": 2.7,
         "foEs_QD": "//",
-        "MUFD": 28.312,
+        "MUFD": 23.215,
         "MUFD_QD": "//"
       }
     },
     {
       "station": "PA836",
       "count": 158,
-      "latestTime": "2026-10-27T10:45:00.000Z",
-      "ageMinutes": 255.73943333333332,
+      "latestTime": "2026-10-27T11:45:00.000Z",
+      "ageMinutes": 255.72241666666667,
       "stale": true,
       "latestQuality": {
-        "confidenceScore": 95,
+        "confidenceScore": 70,
         "missing": [
           "foE",
           "foEs"
@@ -185,51 +171,54 @@
         "usable": true
       },
       "latest": {
-        "time": "2026-10-27T10:45:00.000Z",
-        "CS": 95,
-        "foF2": 4.1,
+        "time": "2026-10-27T11:45:00.000Z",
+        "CS": 70,
+        "foF2": 4.075,
         "foF2_QD": "//",
-        "hmF2": 293.3,
+        "hmF2": 306.8,
         "hmF2_QD": "//",
         "foE": null,
         "foE_QD": "__",
         "foEs": null,
         "foEs_QD": "__",
-        "MUFD": 12.958,
+        "MUFD": 12.753,
         "MUFD_QD": "//"
       }
     },
     {
       "station": "LAA38",
       "count": 155,
-      "latestTime": "2026-10-27T10:37:30.000Z",
-      "ageMinutes": 263.2405166666667,
+      "latestTime": "2026-10-27T11:37:30.000Z",
+      "ageMinutes": 263.22465,
       "stale": true,
       "latestQuality": {
-        "confidenceScore": 70,
-        "missing": [],
+        "confidenceScore": 90,
+        "missing": [
+          "foE",
+          "foEs"
+        ],
         "usable": true
       },
       "latest": {
-        "time": "2026-10-27T10:37:30.000Z",
-        "CS": 70,
-        "foF2": 8.025,
+        "time": "2026-10-27T11:37:30.000Z",
+        "CS": 90,
+        "foF2": 7.3,
         "foF2_QD": "//",
-        "hmF2": 216.7,
+        "hmF2": 204,
         "hmF2_QD": "//",
-        "foE": 2.8,
-        "foE_QD": "//",
-        "foEs": 2.75,
-        "foEs_QD": "//",
-        "MUFD": 29.528,
+        "foE": null,
+        "foE_QD": "__",
+        "foEs": null,
+        "foEs_QD": "__",
+        "MUFD": 27.245,
         "MUFD_QD": "//"
       }
     },
     {
       "station": "TR169",
-      "count": 351,
-      "latestTime": "2026-10-27T14:56:59.000Z",
-      "ageMinutes": 3.7602333333333333,
+      "count": 350,
+      "latestTime": "2026-10-27T15:56:59.000Z",
+      "ageMinutes": 3.73425,
       "stale": false,
       "latestQuality": {
         "confidenceScore": 60,
@@ -240,20 +229,25 @@
         "usable": true
       },
       "latest": {
-        "time": "2026-10-27T14:56:59.000Z",
+        "time": "2026-10-27T15:56:59.000Z",
         "CS": 60,
-        "foF2": 5.1,
+        "foF2": 3.75,
         "foF2_QD": "//",
-        "hmF2": 258.1,
+        "hmF2": 319.9,
         "hmF2_QD": "//",
         "foE": null,
         "foE_QD": "__",
         "foEs": null,
         "foEs_QD": "__",
-        "MUFD": 17.31,
+        "MUFD": 11.28,
         "MUFD_QD": "//"
       }
     }
   ],
-  "errors": []
+  "errors": [
+    {
+      "station": "JR055",
+      "error": "GIRO returned 429: <html>\r\n<head><title>429 Too Many Requests</title></head>\r\n<body>\r\n<center><h1>429 Too Many Requests</h1></center>\r\n<hr><center>nginx/1.24.0 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n"
+    }
+  ]
 }
