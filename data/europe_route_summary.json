@@ -1,5 +1,5 @@
 {
-  "archivedAt": "2026-11-19T20:00:48.287Z",
+  "archivedAt": "2026-11-19T21:00:48.555Z",
   "hours": 24,
   "source": "ionosonde-retriever Netlify GIRO route handler",
   "route": "europe",
@@ -15,8 +15,8 @@
     "LAA38",
     "TR169"
   ],
-  "from": "2026-11-18T20:00:48.287Z",
-  "to": "2026-11-19T20:00:48.287Z",
+  "from": "2026-11-18T21:00:48.555Z",
+  "to": "2026-11-19T21:00:48.555Z",
   "characteristics": [
     "foF2",
     "hmF2",
@@ -26,13 +26,13 @@
   ],
   "dmuf_km": 3000,
   "maxAgeMinutes": 120,
-  "recordCount": 1654,
+  "recordCount": 1578,
   "results": [
     {
       "station": "THJ76",
-      "count": 146,
+      "count": 138,
       "latestTime": "2026-11-19T15:45:00.000Z",
-      "ageMinutes": 255.80953333333332,
+      "ageMinutes": 315.82193333333333,
       "stale": true,
       "latestQuality": {
         "confidenceScore": 40,
@@ -59,35 +59,37 @@
     },
     {
       "station": "MHJ45",
-      "count": 190,
-      "latestTime": "2026-11-19T19:52:30.000Z",
-      "ageMinutes": 8.312266666666666,
+      "count": 183,
+      "latestTime": "2026-11-19T20:00:00.000Z",
+      "ageMinutes": 60.81916666666667,
       "stale": false,
       "latestQuality": {
-        "confidenceScore": 75,
-        "missing": [],
+        "confidenceScore": 70,
+        "missing": [
+          "foEs"
+        ],
         "usable": true
       },
       "latest": {
-        "time": "2026-11-19T19:52:30.000Z",
-        "CS": 75,
-        "foF2": 8.675,
+        "time": "2026-11-19T20:00:00.000Z",
+        "CS": 70,
+        "foF2": 8.463,
         "foF2_QD": "//",
-        "hmF2": 229,
+        "hmF2": 233.1,
         "hmF2_QD": "//",
-        "foE": 2.4,
+        "foE": 2.33,
         "foE_QD": "//",
-        "foEs": 2.35,
-        "foEs_QD": "//",
-        "MUFD": 30.627,
+        "foEs": null,
+        "foEs_QD": "__",
+        "MUFD": 29.265,
         "MUFD_QD": "//"
       }
     },
     {
       "station": "FF051",
-      "count": 156,
+      "count": 148,
       "latestTime": "2026-11-19T15:45:00.000Z",
-      "ageMinutes": 255.81618333333333,
+      "ageMinutes": 315.8165333333333,
       "stale": true,
       "latestQuality": {
         "confidenceScore": 90,
@@ -122,9 +124,9 @@
     },
     {
       "station": "JR055",
-      "count": 288,
+      "count": 276,
       "latestTime": "2026-11-19T19:58:16.000Z",
-      "ageMinutes": 2.5469166666666667,
+      "ageMinutes": 62.54933333333334,
       "stale": false,
       "latestQuality": {
         "confidenceScore": 70,
@@ -151,9 +153,9 @@
     },
     {
       "station": "PQ052",
-      "count": 287,
-      "latestTime": "2026-11-19T19:55:00.000Z",
-      "ageMinutes": 5.81465,
+      "count": 276,
+      "latestTime": "2026-11-19T20:00:00.000Z",
+      "ageMinutes": 60.815016666666665,
       "stale": false,
       "latestQuality": {
         "confidenceScore": 95,
@@ -164,25 +166,25 @@
         "usable": true
       },
       "latest": {
-        "time": "2026-11-19T19:55:00.000Z",
+        "time": "2026-11-19T20:00:00.000Z",
         "CS": 95,
         "foF2": 3,
         "foF2_QD": "//",
-        "hmF2": 313.7,
+        "hmF2": 301.5,
         "hmF2_QD": "//",
         "foE": null,
         "foE_QD": "__",
         "foEs": null,
         "foEs_QD": "__",
-        "MUFD": 9.087,
+        "MUFD": 9.244,
         "MUFD_QD": "//"
       }
     },
     {
       "station": "PA836",
-      "count": 158,
+      "count": 150,
       "latestTime": "2026-11-19T15:52:30.000Z",
-      "ageMinutes": 248.31508333333332,
+      "ageMinutes": 308.31975,
       "stale": true,
       "latestQuality": {
         "confidenceScore": 80,
@@ -208,9 +210,9 @@
     },
     {
       "station": "LAA38",
-      "count": 152,
+      "count": 144,
       "latestTime": "2026-11-19T15:52:30.000Z",
-      "ageMinutes": 248.30858333333333,
+      "ageMinutes": 308.32306666666665,
       "stale": true,
       "latestQuality": {
         "confidenceScore": 90,
@@ -234,9 +236,9 @@
     },
     {
       "station": "TR169",
-      "count": 277,
+      "count": 263,
       "latestTime": "2026-11-19T19:52:30.000Z",
-      "ageMinutes": 8.317916666666667,
+      "ageMinutes": 68.31823333333334,
       "stale": false,
       "latestQuality": {
         "confidenceScore": 75,
